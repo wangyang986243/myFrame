@@ -1,0 +1,412 @@
+.bigScreen {
+    position: relative;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .gisMap {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    /* width: 66.38rem; */
+    width: 54rem;
+    z-index: 0;
+  }
+  .ruler {
+    width: 18rem;
+    height: 5rem;
+    position: absolute;
+    bottom: 3rem;
+    left: 2rem;
+    z-index: 390;
+}
+
+
+
+  .model-left {
+    position: fixed;
+    top: 0;
+    left: 0;
+    /* height: 100%; */
+    width: 20rem;
+    z-index: 0;
+    /* background: linear-gradient(
+      90deg,
+      rgba(2, 20, 39, 256) 40%,
+      rgba(2, 20, 39, 0) 100%
+    ); */
+  }
+  
+  .model-right {
+    position: fixed;
+    top: 0;
+    left: 54rem;
+    height: 100%;
+    width: 14rem;
+    z-index: 0;
+    background: linear-gradient(
+      90deg,
+      rgba(2, 20, 39, 0) 0%,
+      rgba(2, 20, 39, 256) 80%
+    );
+  }
+  
+  .model-top {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 10rem;
+    width: 54rem;
+    z-index: 0;
+    background: linear-gradient(
+      0deg,
+      rgba(2, 20, 39, 0) 0%,
+      rgba(2, 20, 39, 256) 60%
+    );
+  }
+  
+  .total {
+    margin-top: 8vh;
+    z-index: 10;
+    padding-left: 1.5rem;
+  }
+  
+ 
+  
+
+  .flexRSBC {
+    width: 100%;
+    position: relative;
+  }
+  .borderCorner {
+    width: .6rem;
+     height: .6rem;
+     position: absolute;
+     top: -0.4rem;
+     left: -0.56rem;
+ }
+ .totalTitle {
+  color: #fff;
+  font-size: 1.14rem;
+  font-weight: 500;
+  line-height: 1.5rem;
+  letter-spacing: 1px;
+  font-family: PingFangSC-Semibold, PingFang SC;
+}
+
+.totalNum {
+  color: #33d0fa;
+  font-size: 1.72rem;
+}
+
+.totalUnit {
+  color: #ccd8e8;
+  font-size: 0.83rem;
+  width: 3rem;
+  margin-top: 0.5rem;
+  margin-left: 0.2rem;
+}
+  .box {
+    position: relative;
+    height: 4.6rem;
+    width: 9rem;
+  }
+  
+  .box1 {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-right: 0.2rem;
+  }
+  
+  .box2 {
+    display: flex;
+    flex-direction: row;
+    color: #ffffff;
+    font-size: 1.0rem;
+    margin-top: 3.81vh;
+    letter-spacing: 0.06rem;
+    line-height: 1.19rem;
+  }
+  
+  .box3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 0.88rem;
+  }
+  
+  .box4 {
+    display: flex;
+    flex-direction: row;
+  }
+  .genderandcar {
+    width: 100%;
+    height: 100%;
+  }
+  .genderandcar .gender_left,
+  .gender_right {
+    width: 100%;
+    height: 100%;
+    float: left;
+  }
+  .icon {
+    width: 7.58vh;
+    height: 7.58vh;
+  }
+  
+  .t_normal {
+    color: #21cbff;
+    font-size: 1.25rem;
+    margin: 0 0.3rem;
+  }
+  
+  .t_wrong {
+    color: #dc2525;
+    font-size: 1.25rem;
+    margin: 0 0.3rem;
+  }
+  
+  .empty {
+    /* width: 54rem; */
+    width: 33rem;
+    height: 100%;
+    padding-top: 5.88rem;
+  }
+  
+  .right {
+    /* padding: 0.56rem 0.81rem; */
+    height: 100%;
+    background: rgba(0, 3, 8, 0.24);
+    border-radius: 1rem;
+    display:flex;
+    flex-direction: column;
+  }
+  
+  .right1 {
+    /* width: 25rem; */
+    width: 22rem;
+    /* background-color: pink; */
+  }
+  
+  .right2 {
+    width: 21rem;
+    /* background-color: cyan; */
+  }
+  .right3 {
+    width: 21rem;
+    /* background-color: green; */
+  }
+
+  .left1,.left2{
+    width:19.7918rem;
+    position: relative;
+    top: 4rem;
+    height:calc(100% - 4rem);
+  }
+.left3{
+  width:19.8125rem;
+  position: relative;
+  top: 4rem;
+  height:calc(100% - 4rem);
+}
+  .left1 .title,.left2 .title{
+    height: 1.56rem;
+  }
+
+  .left1 .echartMain,.left2 .echartMain{
+    width: 100%;
+    height:100%;
+    position: relative;
+
+  }
+  .left1 .echartMain{
+    margin-top: 12%;
+  }
+  .left1 .top{
+height:15%;
+width:100%;
+
+  }
+  .left2>div{
+    height:30%;
+    width:100%;
+  }
+  .left2 .main,.left3 .main{
+    height:100%;
+    width:100%;
+  }
+  .left1 .bottom{
+    height:calc(80% - 6rem);
+    width:100%;
+  }
+  .left1 .bottom .main{
+    height:94%;
+  }
+
+  .left1{
+    margin-left:1.43rem;
+    padding-top:2.125rem;
+  }
+.right2 .top {
+  height: 48%;
+  width: 100%;
+}
+.right2 .bottom {
+  height: 48%;
+  width: 100%;
+}
+
+.right2 .main {
+  height: 94%;
+}
+  
+  .title {
+    font-size: 1.15rem;
+    font-family: PingFangSC-Semibold, PingFang SC;
+    font-weight: 600;
+    color: #fff;
+    line-height: 1.56rem;
+  }
+  
+  .title::before {
+    width: 0.59rem;
+    height: 1.02rem;
+    content: "";
+    background: linear-gradient(
+      222deg,
+      rgba(33, 203, 255, 1) 0%,
+      rgba(33, 203, 255, 0) 100%
+    );
+  }
+  .title p {
+    margin: 0;
+  }
+  .title img {
+    width: 1rem;
+    height: 1rem;
+    margin-right: 0.4rem;
+  }
+
+  .echarts {
+    width: 100%;
+    height: 100%;
+  }
+
+  .echartMain {
+    width: 100%;
+    height: 100%;
+    position: relative;
+  }
+ 
+  
+
+.echartTitle {
+  width: 1.2rem;
+  font-size: 1.1rem;
+  font-family: PingFangSC-Medium, PingFang SC;
+  font-weight: 500;
+  color: #FFFFFF;
+  line-height: 1.33rem;
+  text-align: center;
+}
+.echartTitle img {
+  width: 100%;
+  height: 0.28rem;
+}
+.echartTitle p {
+  margin-bottom: 0;
+}
+.echartTitle:before {
+  width: 0.95rem;
+  height: 0.19rem;
+  content: "";
+  background: linear-gradient(
+    222deg,
+    rgba(32, 115, 143, 1) 0%,
+    rgba(0, 57, 132, 1) 100%
+  );
+}
+
+  .echartTitleH {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    width: 1.06rem;
+    font-size: 0.8rem;
+    font-family: PingFangSC-Medium, PingFang SC;
+    font-weight: 500;
+    color: rgba(148, 148, 148, 1);
+    line-height: 1.13rem;
+  }
+  
+  /* .echartTitleH:before {
+          width: 0.95rem;
+          height: 0.19rem;
+          content: '';
+          background: linear-gradient(222deg,
+              rgba(32, 115, 143, 1) 0%,
+              rgba(0, 57, 132, 1) 100%);
+      } */
+  
+  .echartTitle img {
+    width: 100%;
+    height: 0.28rem;
+  }
+  .echartTitle p {
+    margin-bottom: 0;
+  }
+  .echartTitleH img {
+    /* width: 100%; */
+    height: 0.28rem;
+  }
+  .echartTitleH p {
+    margin-bottom: 0;
+  }
+  
+  .title p {
+    margin: 0;
+  }
+  .title img {
+    width: 1rem;
+    height: 1rem;
+    margin-right: 0.4rem;
+  }
+  
+  .el-tabs--left .el-tabs__nav-wrap.is-left {
+    margin-right: -0.001111rem;
+    width: 5rem;
+  }
+  .el-tabs__item {
+    line-height: unset;
+    height: unset;
+  }
+  .ccc {
+    height: 100%;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+  }
+
+
+  .age {
+    text-align: center;
+    float: left;
+    text-align: center;
+  }
+  .ageBox {
+    padding-top: 1rem;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  .xueliBox {
+    height: 31.88vh;
+  }

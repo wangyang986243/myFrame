@@ -1,0 +1,197 @@
+/* ========== 全局变量 ========== */
+.blue {
+	--primary-color: rgb(0, 123, 255);
+	--primary-rgb: 0, 123, 255;
+
+	--primary-hover-color: #0069d9;
+	--primary-active-color: #005cbf;
+}
+
+.blue .text-primary {
+	color: var(--primary-color) !important;
+}
+
+.blue a {
+	color: var(--primary-color);
+}
+
+.blue a:hover {
+	color: var(--primary-active-color);
+}
+
+/* ========== 自定义样式 ========== */
+/*  首页  */
+
+.blue .header {
+	color: #666;
+	background: var(--primary-color);
+}
+
+.blue .header .logo {
+	color: #fff;
+}
+
+.blue .header .el-dropdown i {
+	color: #fff !important;
+}
+
+.blue .header .el-dropdown {
+	color: #fff !important;
+}
+
+.blue .header .el-dropdown:hover, .blue .header .el-dropdown:hover i {
+	color: rgba(255,255,255,.7) !important;
+}
+
+.blue .header .nav-list li {
+	color: #fff;
+}
+
+.blue .header .nav-list li a {
+	color: #fff;
+}
+
+.blue .header .nav-list li a:hover {
+	color: rgba(255,255,255,.7);
+}
+
+/* 内页 */
+.blue .header .logo {
+	color: #fff;
+}
+
+.blue .header .title {
+	color: #eee;
+}
+
+.blue .header .title:hover {
+	color: #fff;
+}
+
+.blue .main {
+	background-color: #fafafa;
+}
+
+.blue .breadcrumb {
+	background-color: #f0f0f0;
+	/* border-top-color: #111; */
+}
+
+.blue .aside {
+	background-color: #282828;
+	border-color: #282828;
+}
+
+.blue .aside .collapse-bar {
+	background-color: #222;
+	box-shadow: 0 1px 0 #222;
+}
+
+.blue .aside .el-menu-item.is-active::before {
+	background-color: var(--primary-color);
+}
+
+/* 左导航 */
+.blue .aside .el-menu--horizontal {
+	border-bottom: solid 1px #e6e6e6
+}
+
+.blue .aside .el-menu--horizontal>.el-menu-item {
+	border-bottom: 2px solid transparent;
+	color: var(--primary-color)
+}
+
+.blue .aside .el-menu--horizontal>.el-submenu:focus .el-submenu__title,
+.blue .aside .el-menu--horizontal>.el-submenu:hover .el-submenu__title {
+	color: #333
+}
+
+.blue .aside .el-menu--horizontal>.el-submenu.is-active .el-submenu__title {
+	border-bottom: 2px solid var(--primary-color);
+	color: #333
+}
+
+.blue .aside .el-menu--horizontal>.el-submenu .el-submenu__title {
+	border-bottom: 2px solid transparent;
+	color: var(--primary-color)
+}
+
+.blue .aside .el-menu--horizontal .el-menu .el-menu-item,
+.blue .aside .el-menu--horizontal .el-menu .el-submenu__title {
+	background-color: rgba(var(--primary-rgb), .4);
+	color: var(--primary-color)
+}
+
+.blue .aside .el-menu--horizontal .el-menu .el-menu-item.is-active,
+.blue .aside .el-menu--horizontal .el-menu .el-submenu__title.is-active {
+	color: #333
+}
+
+.blue .aside .el-menu--horizontal .el-menu-item:not(.is-disabled):focus,
+.blue .aside .el-menu--horizontal .el-menu-item:not(.is-disabled):hover {
+	color: #333
+}
+
+.blue .aside .el-menu--horizontal>.el-menu-item.is-active {
+	border-bottom: 2px solid var(--primary-color);
+	color: #333
+}
+
+.blue .aside .el-menu--collapse .el-submenu .el-menu {
+	border: 1px solid #333;
+}
+
+.blue .aside .el-menu-item {
+	color: #999;
+}
+
+.blue .aside .el-menu-item i {
+	color: rgba(255, 255, 255, .3)
+}
+
+.blue .aside .el-menu-item:focus,
+.blue .aside .el-menu-item:hover {
+	background-color: rgba(var(--primary-rgb), .1)
+}
+
+.blue .aside .el-menu-item.is-active {
+	color: var(--primary-color)
+}
+
+.blue .aside .el-menu-item.is-active i {
+	color: rgba(var(--primary-rgb), .5)
+}
+
+.blue .aside .el-submenu__title {
+	color: #999;
+}
+
+.blue .aside .el-submenu__title i {
+	color: rgba(255, 255, 255, .3);
+}
+
+.blue .aside .el-submenu__title:focus,
+.blue .aside .el-submenu__title:hover {
+	background-color: rgba(var(--primary-rgb), .1)
+}
+
+.blue .aside .el-submenu__title:hover {
+	background-color: rgba(var(--primary-rgb), .1)
+}
+
+.blue .aside .el-submenu.is-active .el-submenu__title {
+	border-bottom-color: var(--primary-color)
+}
+
+.blue .aside .el-menu-item-group__title {
+	color: var(--primary-color)
+}
+/* element-ui */
+.blue .el-table--striped .el-table__body tr.el-table__row--striped.current-row td,
+.blue .el-table__body tr.current-row>td,
+.blue .el-table__body tr.hover-row.current-row>td,
+.blue .el-table__body tr.hover-row.el-table__row--striped.current-row>td,
+.blue .el-table__body tr.hover-row.el-table__row--striped>td,
+.blue .el-table__body tr.hover-row>td {
+	background-color: rgba(var(--primary-rgb), .1) !important
+}

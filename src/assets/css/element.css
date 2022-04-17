@@ -1,0 +1,299 @@
+.el-header {
+    padding: 0;
+  }
+/************************翻页组件部分******************/
+  .el-pagination__total,.el-pager li.btn-quicknext  {
+	  color: #919CAE;
+  }
+  .el-pagination .el-pager {
+    background-color: #1b1d29;
+    color: #919cae;
+  }
+  
+  .el-pagination .btn-prev {
+    background-color: transparent !important;
+    color: #919cae;
+  }
+  .el-pagination .btn-next {
+    background-color: transparent !important;
+    color: #919cae;
+  }
+  
+  .el-pagination .el-dialog,
+  .el-pager li {
+    background-color: transparent;
+  }
+  
+  .el-pagination .el-pagination__jump {
+    color: #919cae;
+  }
+
+/************************下拉框组件部分******************/
+input.el-input__inner {
+    border-radius: 1rem;
+    background-color: #202533;
+    color: #d9dae0;
+    border: 0;
+  }
+  
+  .el-input__inner {
+    background-color: #101011;
+  }
+
+  .el-select-dropdown {
+    box-shadow: 3px 9px 30px 0px #101011;
+    background-color: #1b1d29;
+    border: 0;
+  }
+  
+  .el-select-dropdown__item {
+    color: #d9dae0;
+  }
+  
+  .el-select-dropdown__item.hover,
+  .el-select-dropdown__item:hover {
+    background-color: #202533;
+  }
+  
+  .el-select-dropdown__item.selected {
+    background-color: transparent;
+  }
+  .el-header .el-select {
+  	width: 11.88rem;
+  	margin-right: 1.56rem;
+  }
+  /************************面包屑组件部分******************/
+  .el-breadcrumb__inner a, .el-breadcrumb__inner.is-link  {
+  	color: #919CAE;
+  	font-size: 18px;
+  }
+  .el-breadcrumb__item:last-child .el-breadcrumb__inner {
+  	color: #919CAE;
+  	font-size: 18px;
+  }
+  .el-breadcrumb__separator {
+  	font-size: 18px;
+  }
+
+  /************************卡片组件部分******************/
+  .el-card {
+    border: none;
+  }
+  
+  .el-card__body {
+    padding: 0 0 0 2.25rem;
+    height: 100%;
+  }
+  /************************树形组件部分******************/
+  .el-tree {
+    color: #d9dae0;
+    background-color: transparent;
+  }
+  .el-tree-node__content:hover {
+    background-color: transparent;
+  }
+  .el-tree-node:focus > .el-tree-node__content {
+    background-color: transparent;
+    /* color: #408aff; */
+  }
+  .is-current > .el-tree-node__content {
+    color: #408aff;
+  }
+
+  .el-tree-node__label {
+  	font-size: 14px;
+  }
+  
+  .el-tree-node {
+  	margin-top: 1.44rem;
+  }
+  /************************单选按钮组件部分******************/
+  .el-radio {
+  	color: #D9DAE0;
+  }
+  .el-radio__inner {
+  	background-color: rgba(216,216,216,0.04);
+  	border: 0.13rem solid rgba(79,88,103,1);
+  }
+  .el-radio__input.is-checked .el-radio__inner {
+  	background-color: transparent;
+  }
+  .el-radio__inner::after {
+  	background-color: #409EFF;
+  }
+
+  /* 日历自定义样式 */
+  .el-calendar {
+    background-color: #1b1d29;
+    color: #d9dae0;
+  }
+  
+  .el-calendar__header {
+    border: 0;
+    border: 1px solid #303440;
+  }
+  
+  .el-calendar__body {
+    padding: 0;
+  }
+  
+  .el-calendar__body span {
+    font-size: 1.13rem;
+    float: right;
+  }
+  
+  .el-calendar-table {
+    height: 100vh;
+  }
+  
+  .el-calendar-table thead {
+    border: 1px solid #303440;
+  }
+  
+  .el-calendar-table thead th {
+    text-align: center;
+    color: #d9dae0;
+    font-size: 1.13rem;
+  }
+  
+  .el-calendar-table td {
+    border: 1px solid #303440;
+  }
+  
+.el-calendar-table tr td:first-child {
+    border: 1px solid #303440;
+    background-color: #212332;
+  }
+  
+.el-calendar-table tr td:last-child {
+    background-color: #212332;
+  }
+  
+.el-calendar-table tr td:first-child span {
+    color: #677182;
+  }
+.el-calendar-table tr td:last-child span {
+    color: #677182;
+  }
+  
+  .el-calendar-table tr:first-child td {
+    border: 1px solid #303440;
+  }
+  
+  .el-calendar__button-group {
+    line-height: 2.8125rem /* 45/16 */;
+  }
+  .el-button-group .el-button {
+    background-color: transparent;
+    border-color: #408aff;
+  }
+  
+  .el-button-group .el-button:focus,
+  .el-button:hover {
+    background-color: rgba(64, 138, 255, 0.2);
+  }
+  
+  .el-backtop,
+  .el-calendar-table td.is-today span {
+    display: block;
+    width: 3.25rem;
+    height: 3.25rem;
+    border-radius: 1.625rem;
+    background-color: #408aff;
+    text-align: center;
+    line-height: 3.25rem;
+    color: #d9dae0;
+    text-align-last: auto;
+    position: relative;
+    top: -.8rem;
+  }
+  
+  .el-calendar__title {
+    margin: 0 auto;
+    color: #d9dae0;
+    font-size: 1.88rem;
+  }
+  
+  .el-calendar-table td.is-selected {
+    background-color: transparent;
+  }
+  
+  .el-calendar-table .el-calendar-day {
+    overflow: auto;
+    padding: 1.5rem;
+    height: 100%;
+  }
+
+  .el-calendar-table .el-calendar-day > div {
+    position: relative;
+    top: 1.5rem;
+  }
+  .el-calendar-table .el-calendar-day:hover {
+    
+    background-color: transparent;
+  }
+  
+  .el-backtop,
+  .el-calendar-table td.is-today {
+    color: #d9dae0;
+  }
+  /* 进度条样式 */
+.el-progress {
+    border-radius: 6px;
+  }
+  
+.el-progress-bar__outer {
+    background-color: rgba(50, 197, 255, 0.2);
+  }
+  
+.el-progress-bar__inner {
+    background: linear-gradient(
+      270deg,
+      rgba(97, 228, 255, 1) 0%,
+      rgba(50, 197, 255, 1) 100%
+    );
+    height: 50%;
+    top: 50%;
+    transform: translateY(-45%);
+    left: 1.5%;
+  }
+  
+.el-progress__text {
+    color: #21cbff;
+  }
+  /* --------------日期选择器组件样式-------------------- */
+.el-picker-panel {
+  background: #1B1D29;
+  border:none;
+  color: #d9dae0;
+  box-shadow: 2px 4px 11px 0px rgba(16,16,17,1);
+}
+.el-picker-panel__icon-btn {
+  color: #d9dae0;
+}
+.el-date-range-picker__content.is-left {
+    border-right: 0.0625rem solid #303440;
+}
+.el-date-table th {
+    text-align: center;
+    border-bottom: solid 0.0625rem #303440;
+}
+.el-date-table td.in-range div {
+  background-color:#202533;
+}
+.el-date-table td.in-range div, .el-date-table td.in-range div:hover {
+  background-color: #202533;
+}
+.el-date-table td.next-month, .el-date-table td.prev-month {
+  color: #606266;
+}
+
+.el-date-table td.disabled div{
+  background-color: #677182;
+}
+
+
+/* +++++++++++++++++++++++表单元素部分+++++++++++++++++++++++++ */
+
+
+

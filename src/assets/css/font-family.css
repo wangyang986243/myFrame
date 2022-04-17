@@ -1,0 +1,31 @@
+
+@font-face {
+    font-family: "DIN-Alternate-Bold";
+    src: url("../fontFamily/DIN Alternate Bold.ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: "PingFang-Regular";
+    src: url("../fontFamily/PingFang Regular.ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: "DIN-Bold";
+    src: url("../fontFamily/DIN-Bold.ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: "DIN";
+    src: url("../fontFamily/DIN.ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: "SYST";
+    src: url("../fontFamily/SYST.otf");
+    font-weight: normal;
+    font-style: normal;
+}

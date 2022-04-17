@@ -1,0 +1,166 @@
+/* ========== 全局变量 ========== */
+.white {
+    --primary-color: rgb(0, 123, 255);
+    --primary-rgb: 0, 123, 255;
+
+    --primary-hover-color: #0069d9;
+    --primary-active-color: #005cbf;
+}
+
+.white .text-primary {
+    color: var(--primary-color) !important;
+}
+
+.white a {
+    color: var(--primary-color);
+}
+
+.white a:hover {
+    color: var(--primary-active-color);
+}
+
+/* ========== 全局 ========== */
+/* 首页 */
+.white .header {
+    color: #666;
+    background-color: #fafafa;
+}
+
+.white .header .logo {
+    color: rgb(0, 123, 255);
+}
+
+.white .header .title {
+    color: #666;
+}
+
+.white .el-dropdown i {
+    color: #666 !important;
+}
+
+/* .header .el-dropdown-link {
+    color: #666 !important;
+} */
+
+.white .header .el-dropdown {
+	color: #666 !important;
+}
+
+.white .header .el-dropdown:hover, .header .el-dropdown:hover i {
+	color: rgb(0, 123, 255) !important;
+}
+
+.white .header .nav-list li a {
+    color: #666;
+}
+
+.white .header .nav-list li a:hover {
+    color: rgb(0, 123, 255);
+}
+
+/* 内页 */
+.white .main {
+    background-color: #fafafa;
+}
+
+.white .el-aside.aside {
+    background-color: #eee;
+    border-right: 1px solid #ddd;
+}
+
+.white .aside .collapse-bar {
+    background-color: #f5f5f5;
+    box-shadow: 0 1px 0 #ddd;
+}
+
+.white .aside .collapse-bar i {
+    color: #888;
+}
+
+.white .aside .el-menu-item.is-active::before {
+    background-color: rgb(0, 123, 255);
+}
+
+/* 左导航 */
+.white .el-menu--horizontal {
+    border-bottom: solid 1px #e6e6e6
+}
+
+.white .el-menu--horizontal>.el-menu-item {
+    border-bottom: 2px solid transparent;
+    color: rgb(0, 123, 255)
+}.white 
+
+.white .el-menu--horizontal>.el-submenu:focus .el-submenu__title,
+.white .el-menu--horizontal>.el-submenu:hover .el-submenu__title {
+    color: #333
+}
+
+.white .el-menu--horizontal>.el-submenu.is-active .el-submenu__title {
+    border-bottom: 2px solid rgb(0, 123, 255);
+    color: #333
+}
+
+.white .el-menu--horizontal>.el-submenu .el-submenu__title {
+    border-bottom: 2px solid transparent;
+    color: rgb(0, 123, 255)
+}
+
+.white .el-menu--horizontal .el-menu .el-menu-item,
+.white .el-menu--horizontal .el-menu .el-submenu__title {
+    background-color: rgba(0, 123, 255, .4);
+    color: rgb(0, 123, 255)
+}
+
+.white .el-menu--horizontal .el-menu .el-menu-item.is-active,
+.white .el-menu--horizontal .el-menu .el-submenu__title.is-active {
+    color: #333
+}
+
+.white .el-menu--horizontal .el-menu-item:not(.is-disabled):focus,
+.white .el-menu--horizontal .el-menu-item:not(.is-disabled):hover {
+    color: #333
+}
+
+.white .el-menu--horizontal>.el-menu-item.is-active {
+    border-bottom: 2px solid rgb(0, 123, 255);
+    color: #333
+}
+
+.white .el-menu--collapse .el-submenu .el-menu {
+    border: 1px solid #333;
+}
+
+.white .el-submenu__title {
+    color: #333;
+}
+
+.white .el-submenu__title i {
+    color: rgba(0, 0, 0, .3);
+}
+
+.white .el-submenu__title:focus,
+.white .el-submenu__title:hover {
+    background-color: rgba(0, 123, 255, .1)
+}
+
+.white .el-submenu__title:hover {
+    background-color: rgba(0, 123, 255, .1)
+}
+
+.white .el-submenu.is-active .el-submenu__title {
+    border-bottom-color: rgb(0, 123, 255)
+}
+
+.white .el-menu-item-group__title {
+    color: rgb(0, 123, 255)
+}
+
+.white .el-submenu__title i {
+    color: rgba(0, 0, 0, .3)
+}
+
+.white .el-transfer-panel {
+    border: 1px solid #e1e1e1;
+    background: #fff;
+}
