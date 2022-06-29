@@ -1,3 +1,11 @@
+/*
+ * @Author: wangyang wangyang11171212@163.com
+ * @Date: 2022-06-28 14:43:17
+ * @LastEditors: wangyang wangyang11171212@163.com
+ * @LastEditTime: 2022-06-28 15:54:55
+ * @FilePath: \myFrame\src\main.js
+ * @Description: 入口文件
+ */
 import Vue from 'vue'
 import ElementUI from 'element-ui'
 import 'element-ui/lib/theme-chalk/index.css'

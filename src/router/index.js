@@ -119,7 +119,36 @@ export const constantRoutes = [
                 component: () => import('@/views/time/specialTime'),
                 meta: { title: '特殊时间' }
             },
-            
+
+
+        ]
+    },
+    //图片
+    {
+        alwaysShow: true,
+        component: Layout,
+        hidden: false,
+        path: '/pic',
+        meta: {
+            name: 'pic',
+            title: '图片相关',
+            icon: 'pic',
+        },
+
+        children: [
+            {
+                path: 'editPic',
+                name: 'editPic',
+                component: () => import('@/views/pic/editPic'),
+                meta: { title: '编辑图片1' }
+            },
+            {
+                path: 'tailoring',
+                name: 'tailoring',
+                component: () => import('@/views/pic/tailoring'),
+                meta: { title: '编辑图片2' }
+            },
+
 
         ]
     }
