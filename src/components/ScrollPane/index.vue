@@ -1,3 +1,10 @@
+<!--
+ * @Description: 
+ * @Author: wangyang
+ * @Date: 2023-05-04 15:21:33
+ * @LastEditors: wangyang
+ * @LastEditTime: 2023-05-04 15:37:17
+-->
 <template>
   <el-scrollbar
     ref="scrollContainer"
@@ -78,7 +85,7 @@ export default {
   position: relative;
   overflow: hidden;
   width: 100%;
-  /deep/ {
+  ::v-deep {
     .el-scrollbar__bar {
       bottom: 0px;
     }
