@@ -1,8 +1,8 @@
 /*
  * @Author: wangyang wangyang11171212@163.com
  * @Date: 2022-06-28 14:43:17
- * @LastEditors: wangyang wangyang11171212@163.com
- * @LastEditTime: 2022-06-28 15:54:55
+ * @LastEditors: wangyang
+ * @LastEditTime: 2023-05-05 14:36:06
  * @FilePath: \myFrame\src\main.js
  * @Description: 入口文件
  */
@@ -30,6 +30,10 @@ import store from '@/store'
 import BaseVue from "@/views/common/base.vue"
 import AMap from "vue-amap"
 import './assets/js/flexible'
+
+import UmyUi from 'umy-ui'
+import 'umy-ui/lib/theme-chalk/index.css';// 引入样式
+Vue.use(UmyUi);
 
 Vue.use(ElementUI, { size: 'small' });
 Vue.use(AMap);

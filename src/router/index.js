@@ -97,6 +97,13 @@ export const constantRoutes = [
                 component: () => import('@/views/table/cityIndex'),
                 meta: { title: '城市索引' },
             },
+            // 嵌套表格
+            {
+                path: 'nestedTable',
+                name: 'nestedTable',
+                component: () => import('@/views/table/nestedTable'),
+                meta: { title: '嵌套表格' },
+            },
 
         ]
     },
