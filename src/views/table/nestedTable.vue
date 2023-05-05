@@ -3,12 +3,12 @@
  * @Author: wangyang
  * @Date: 2023-05-04 15:45:09
  * @LastEditors: wangyang
- * @LastEditTime: 2023-05-05 19:55:16
+ * @LastEditTime: 2023-05-05 19:57:20
 -->
 <template>
   <div>
     <div class="header" ref="header">
-      {{ multipleSelection }}
+     选中项（父子不关联）： {{ multipleSelection }}
     </div>
     <ux-grid
       :tree-config="{
