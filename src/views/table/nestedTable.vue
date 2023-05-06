@@ -3,12 +3,12 @@
  * @Author: wangyang
  * @Date: 2023-05-04 15:45:09
  * @LastEditors: wangyang
- * @LastEditTime: 2023-05-05 19:57:20
+ * @LastEditTime: 2023-05-06 10:04:54
 -->
 <template>
   <div>
     <div class="header" ref="header">
-     选中项（父子不关联）： {{ multipleSelection }}
+      <div>长列表渲染-树状table-多选-父子不强关联</div>
     </div>
     <ux-grid
       :tree-config="{
@@ -43,7 +43,9 @@
       <ux-table-column field="address" title="地址" width="200">
       </ux-table-column>
     </ux-grid>
-    <div class="footer" ref="footer">底部</div>
+    <div class="footer" ref="footer">
+      选中项（父子不关联）： {{ multipleSelection }}
+    </div>
   </div>
 </template>
 
@@ -143,10 +145,14 @@ export default {
 .header {
   height: 100px;
   background-color: pink;
+  font-size: 20px;
+  color: 000;
 }
 .footer {
   height: 100px;
   background-color: pink;
+  font-size: 20px;
+  color: 000;
 }
 ::v-deep .el-table .DisableSelection .cell .el-checkbox__inner {
   display: none;
