@@ -158,6 +158,27 @@ export const constantRoutes = [
 
 
         ]
+    },
+    //组织架构
+    {
+        alwaysShow: true,
+        component: Layout,
+        hidden: false,
+        path: '/org',
+        meta: {
+            name: 'org',
+            title: '组织架构相关',
+            icon: 'pic',
+        },
+
+        children: [
+            {
+                path: 'org',
+                name: 'org',
+                component: () => import('@/views/org/org'),
+                meta: { title: '组织架构' }
+            },
+        ]
     }
 ]
 

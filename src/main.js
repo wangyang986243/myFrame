@@ -2,7 +2,7 @@
  * @Author: wangyang wangyang11171212@163.com
  * @Date: 2022-06-28 14:43:17
  * @LastEditors: wangyang
- * @LastEditTime: 2023-05-05 14:36:06
+ * @LastEditTime: 2023-08-21 17:00:42
  * @FilePath: \myFrame\src\main.js
  * @Description: 入口文件
  */
@@ -10,6 +10,9 @@ import Vue from 'vue'
 import ElementUI from 'element-ui'
 import 'element-ui/lib/theme-chalk/index.css'
 import 'normalize.css/normalize.css' // A modern alternative to CSS resets
+import Vue2OrgTree from 'vue2-org-tree'
+import 'vue2-org-tree/dist/style.css'
+
 // import locale from 'element-ui/lib/locale/lang/en' // lang i18n
 import "@/assets/css/base.css"
 import "@/assets/css/listPage.css"
@@ -34,7 +37,7 @@ import './assets/js/flexible'
 import UmyUi from 'umy-ui'
 import 'umy-ui/lib/theme-chalk/index.css';// 引入样式
 Vue.use(UmyUi);
-
+Vue.use(Vue2OrgTree)
 Vue.use(ElementUI, { size: 'small' });
 Vue.use(AMap);
 AMap.initAMapApiLoader({
